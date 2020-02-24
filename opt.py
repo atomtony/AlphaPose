@@ -59,7 +59,7 @@ parser.add_argument('--loadModel', default=None, type=str,
                     help='Provide full path to a previously trained model')
 parser.add_argument('--try_loadModel', default=None, type=str,
                     help='Provide full path to a previously trained model')
-parser.add_argument('--nClasses', default=17, type=int,
+parser.add_argument('--nClasses', default=33, type=int,
                     help='Number of output channel')
 parser.add_argument('--pre_resnet', default=True, dest='pre_resnet',
                     help='Use pretrained resnet', action='store_true')

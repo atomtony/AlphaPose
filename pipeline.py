@@ -29,7 +29,7 @@ else:
 # box conf = 0.40: 24.0FPS -> 26.6FPS
 # box conf = 0.50: 24.5FPS -> 27.0FPS
 
-ctx = mx.cpu()
+ctx = mx.gpu()
 
 
 class PoseStage:
